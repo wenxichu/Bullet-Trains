@@ -83,6 +83,7 @@ class Bookings:
         while pointer is not None:
             pointer.show_info()
             pointer = pointer.next
+        print("\n")
 
     def add_passenger(self, ticket):
         self.records.append(ticket)
