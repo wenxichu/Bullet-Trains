@@ -36,7 +36,7 @@ class Japanese(BulletTrain):
     def set_departure(self):
         question = input("Set the departure time (e.g. 12:00 AM): ")
         self.departure_time = datetime.strptime(question, "%I:%M %p")
-        print(f"\nThe train will depart at {self.departure_time}.\n")
+        print(f"\nThe train will depart at {question}.\n")
         Japanese.times = self.departure_time
 
 
@@ -72,7 +72,7 @@ class French(BulletTrain):
     def set_departure(self):
         question = input("Set the departure time (e.g. 12:00 AM): ")
         self.departure_time = datetime.strptime(question, "%I:%M %p")
-        print(f"\nThe train will depart at {self.departure_time}.\n")
+        print(f"\nThe train will depart at {question}.\n")
         French.times = self.departure_time
 
 
@@ -108,7 +108,7 @@ class Chinese(BulletTrain):
     def set_departure(self):
         question = input("Set the departure time (e.g. 12:00 AM): ")
         self.departure_time = datetime.strptime(question, "%I:%M %p")
-        print(f"\nThe train will depart at {self.departure_time}.\n")
+        print(f"\nThe train will depart at {question}.\n")
         Chinese.times = self.departure_time
 
 
@@ -144,7 +144,7 @@ class Korean(BulletTrain):
     def set_departure(self):
         question = input("Set the departure time (e.g. 12:00 AM): ")
         self.departure_time = datetime.strptime(question, "%I:%M %p")
-        print(f"\nThe train will depart at {self.departure_time}.\n")
+        print(f"\nThe train will depart at {question}.\n")
         Korean.times = self.departure_time
 
 
@@ -180,5 +180,5 @@ class Italian(BulletTrain):
     def set_departure(self):
         question = input("Set the departure time (e.g. 12:00 AM): ")
         self.departure_time = datetime.strptime(question, "%I:%M %p")
-        print(f"\nThe train will depart at {self.departure_time}.\n")
+        print(f"\nThe train will depart at {question}.\n")
         Italian.times = self.departure_time
